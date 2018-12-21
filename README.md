@@ -1,5 +1,5 @@
 # Retinal Vessel Segmentation
-This repository contains codes for the *autoencoder* from the paper [Retinal Vein detection using Residual Block Incorporated U-Net Architecture and Fuzzy Inference System
+This repository contains codes for the *autoencoder* described in the paper [Retinal Vein detection using Residual Block Incorporated U-Net Architecture and Fuzzy Inference System
 ](https://www.researchgate.net/publication/329164442_Retinal_Vein_detection_using_Residual_Block_Incorporated_U-Net_Architecture_and_Fuzzy_Inference_System). I used the train set of [*DRIVE*](https://www.isi.uu.nl/Research/Databases/DRIVE/) dataset for training and
 it's test dataset along with data from [*STARE*](http://cecas.clemson.edu/~ahoover/stare/) for testing.
 
