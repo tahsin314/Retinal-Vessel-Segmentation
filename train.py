@@ -1,15 +1,12 @@
 import os
-
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import numpy as np
-
-np.random.seed(42)
 import cv2
 from keras.callbacks import TensorBoard, ModelCheckpoint
 from keras.utils.vis_utils import model_to_dot
 from keras.utils import plot_model
 from model import residual_unet
-from sklearn.metrics import precision_score, recall_score, roc_auc_score, accuracy_score, confusion_matrix
+np.random.seed(42)
 
 data_location = './data/DRIVE'
 training_images_loc = data_location + '/training/images/'
